@@ -1,0 +1,10 @@
+{
+  "context": [],
+  "decisions": [],
+  "file_map": {
+    "persistence_agent": [
+      "requirements.txt",
+      ".env.example"
+    ]
+  }
+}

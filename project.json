@@ -1,0 +1,16 @@
+{
+  "name": "discord_trivia_bot",
+  "display_name": "discord_trivia_bot",
+  "description": "Bot de Discord para crear y jugar trivias interactivas usando Python y discord.py. Incluir: slash commands, embed responses, persistencia en SQLite, sistema de permisos, .env.example, requirements.txt, README completo.",
+  "tech_stack": [
+    "Python",
+    "discord.py",
+    "SQLite"
+  ],
+  "created_at": "2026-06-24T09:08:12.331193",
+  "created_by": "Bot_Ant Multi-Agent System",
+  "version": "1.0.0",
+  "status": "in_development",
+  "portable": true,
+  "notes": "Este proyecto es portable. Puedes mover la carpeta completa a otro equipo."
+}

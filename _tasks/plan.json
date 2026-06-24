@@ -1,0 +1,114 @@
+{
+  "project_name": "discord_trivia_bot",
+  "description": "Bot de Discord para crear y jugar trivias interactivas usando Python y discord.py. Incluir: slash commands, embed responses, persistencia en SQLite, sistema de permisos, .env.example, requirements.txt, README completo.",
+  "tech_stack": [
+    "Python",
+    "discord.py",
+    "SQLite"
+  ],
+  "tasks": [
+    {
+      "title": "Configurar entorno de desarrollo",
+      "description": "Instalar Python, pip y crear un virtual environment. Crear estructura de directorios: src/, tests/.",
+      "assigned_to": "persistence_agent",
+      "dependencies": [],
+      "priority": 1
+    },
+    {
+      "title": "Configurar archivo requirements.txt",
+      "description": "Crear requirements.txt con discord.py y SQLite3. Instalar dependencias.",
+      "assigned_to": "tools_api_agent",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Configurar archivo .env.example",
+      "description": "Crear .env.example con variables de entorno necesarias para el bot (TOKEN, DATABASE_URI).",
+      "assigned_to": "domain_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Configurar base de datos SQLite",
+      "description": "Crear archivo db.py con la configuración de la conexión a SQLite. Crear tabla para almacenar trivias y preguntas.",
+      "assigned_to": "database_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Configurar bot principal",
+      "description": "Crear archivo main.py con el bot básico usando discord.py. Incluir setup de intents, slash commands y event listeners.",
+      "assigned_to": "backend_expert",
+      "dependencies": [
+        "task_003",
+        "task_004"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Implementar sistema de permisos",
+      "description": "Añadir funcionalidad para comandos de administrador y moderador en main.py. Utilizar roles de Discord.",
+      "assigned_to": "backend_expert",
+      "dependencies": [
+        "task_005"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Crear comando /crearTrivia",
+      "description": "Añadir función de slash command para crear trivias. Interactivo: nombre, preguntas, respuestas y puntuación.",
+      "assigned_to": "backend_expert",
+      "dependencies": [
+        "task_005"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Crear comando /jugarTrivia",
+      "description": "Añadir función de slash command para jugar trivias. Seleccionar trivia, responder preguntas y mostrar puntuación final.",
+      "assigned_to": "backend_expert",
+      "dependencies": [
+        "task_005"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Implementar respuestas en formato embed",
+      "description": "Modificar comandos /crearTrivia y /jugarTrivia para que utilicen respuestas en formato de Discord Embed.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_007",
+        "task_008"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Escribir tests unitarios",
+      "description": "Crear pruebas para comandos y funciones principales en tests/test_main.py. Usar unittest o pytest.",
+      "assigned_to": "research_agent",
+      "dependencies": [
+        "task_003",
+        "task_005"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Crear README.md",
+      "description": "Escribir README.md con descripción del proyecto, instalación, uso y ejemplos. Incluir capturas de pantalla.",
+      "assigned_to": "writer_agent",
+      "dependencies": [
+        "task_001",
+        "task_003",
+        "task_004",
+        "task_005"
+      ],
+      "priority": 5
+    }
+  ]
+}

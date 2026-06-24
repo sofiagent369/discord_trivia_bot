@@ -163,24 +163,27 @@
       "title": "Implementar respuestas en formato embed",
       "description": "Modificar comandos /crearTrivia y /jugarTrivia para que utilicen respuestas en formato de Discord Embed.",
       "assigned_to": "ui_expert",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 4,
       "dependencies": [
         "task_007",
         "task_008"
       ],
-      "output_files": [],
-      "output_summary": "",
+      "output_files": [
+        "main.py",
+        "README.md"
+      ],
+      "output_summary": "### Explicación:\nPara mejorar la experiencia de usuario en el bot de Discord, vamos a modificar los comandos `/crearTrivia` y `/jugarTrivia` para que utilicen respuestas en formato de Discord Embed. Esto hará que las respuestas sean más visualmente atractivas y facilitará la lectura.\n\nVamos a realiz | Archivos: main.py, README.md",
       "created_at": "2026-06-24T09:08:12.411127",
       "started_at": "2026-06-24T09:41:35.844337",
-      "completed_at": null
+      "completed_at": "2026-06-24T09:50:48.944205"
     },
     {
       "id": "task_010",
       "title": "Escribir tests unitarios",
       "description": "Crear pruebas para comandos y funciones principales en tests/test_main.py. Usar unittest o pytest.",
       "assigned_to": "research_agent",
-      "status": "pending",
+      "status": "in_progress",
       "priority": 4,
       "dependencies": [
         "task_003",
@@ -189,7 +192,7 @@
       "output_files": [],
       "output_summary": "",
       "created_at": "2026-06-24T09:08:12.411127",
-      "started_at": null,
+      "started_at": "2026-06-24T09:50:51.265812",
       "completed_at": null
     },
     {
@@ -212,5 +215,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T09:41:35.844337"
+  "updated_at": "2026-06-24T09:50:51.265812"
 }

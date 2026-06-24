@@ -35,6 +35,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Crear comando /jugarTrivia. Archivos: main.py, requirements.txt, README.md, .env.example",
       "timestamp": "2026-06-24T09:41:33.528882"
+    },
+    {
+      "content": "Agente 🎨 Experto UI/UX completó: Implementar respuestas en formato embed. Archivos: main.py, README.md",
+      "timestamp": "2026-06-24T09:50:48.944205"
     }
   ],
   "decisions": [],
@@ -75,6 +79,12 @@
     "ui_expert": [
       "main.py",
       "README.md"
+    ],
+    "research_agent": [
+      "tests/test_main.py",
+      "requirements.txt",
+      ".env.example",
+      "project.json"
     ]
   }
 }

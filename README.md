@@ -1,4 +1,8 @@
-# discord_trivia_bot
+# discord_trivia_bot 🚀
+
+## Descripción
+
+`discord_trivia_bot` es un bot de Discord desarrollado en Python utilizando la biblioteca `discord.py`. Este bot permite crear y jugar trivias interactivas con slash commands, respuestas en formato embed y persistencia de datos en SQLite. Además, incluye un sistema de permisos para restriccionar el acceso a ciertos comandos a usuarios con roles específicos (administradores y moderadores).
 
 ## Funcionalidades Implementadas
 
@@ -9,17 +13,12 @@
 - **Comando /crearTrivia**: Creación interactiva de nuevas trivias utilizando respuestas en formato de Discord Embed.
 - **Comando /jugarTrivia**: Jugar a una trivia seleccionada, responder preguntas y ver la puntuación final utilizando respuestas en formato de Discord Embed.
 
-## Contribuciones
+## Tecnologías Usadas
 
-Para contribuir al proyecto, sigue estos pasos:
+- **Python**
+- **discord.py**
+- **SQLite**
 
-1. Fork el repositorio.
-2. Crea tu rama (`git checkout -b feature/AmazingFeature`).
-3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`).
-4. Push a la rama (`git push origin feature/AmazingFeature`).
-5. Abre un Pull Request.
+## Instalación
 
-## Contacto
-
-- **Correo**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+1. **Clonar el Repositorio**:

@@ -183,24 +183,29 @@
       "title": "Escribir tests unitarios",
       "description": "Crear pruebas para comandos y funciones principales en tests/test_main.py. Usar unittest o pytest.",
       "assigned_to": "research_agent",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 4,
       "dependencies": [
         "task_003",
         "task_005"
       ],
-      "output_files": [],
-      "output_summary": "",
+      "output_files": [
+        "tests/test_main.py",
+        "requirements.txt",
+        ".env.example",
+        "project.json"
+      ],
+      "output_summary": "# Escribir tests unitarios\n\nPara asegurarnos de que el bot de Discord funcione correctamente, vamos a crear pruebas unitarias utilizando `pytest`. Esto ayudará a detectar errores temprano y garantizará que las funciones principales sigan funcionando como se espera.\n\n## Creación del archivo `tests/te | Archivos: tests/test_main.py, requirements.txt, .env.example, project.json",
       "created_at": "2026-06-24T09:08:12.411127",
       "started_at": "2026-06-24T09:50:51.265812",
-      "completed_at": null
+      "completed_at": "2026-06-24T10:00:40.913701"
     },
     {
       "id": "task_011",
       "title": "Crear README.md",
       "description": "Escribir README.md con descripción del proyecto, instalación, uso y ejemplos. Incluir capturas de pantalla.",
       "assigned_to": "writer_agent",
-      "status": "pending",
+      "status": "in_progress",
       "priority": 5,
       "dependencies": [
         "task_001",
@@ -211,9 +216,9 @@
       "output_files": [],
       "output_summary": "",
       "created_at": "2026-06-24T09:08:12.426661",
-      "started_at": null,
+      "started_at": "2026-06-24T10:00:43.406593",
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T09:50:51.265812"
+  "updated_at": "2026-06-24T10:00:43.406593"
 }

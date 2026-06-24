@@ -39,6 +39,10 @@
     {
       "content": "Agente 🎨 Experto UI/UX completó: Implementar respuestas en formato embed. Archivos: main.py, README.md",
       "timestamp": "2026-06-24T09:50:48.944205"
+    },
+    {
+      "content": "Agente 🔍 Investigador completó: Escribir tests unitarios. Archivos: tests/test_main.py, requirements.txt, .env.example, project.json",
+      "timestamp": "2026-06-24T10:00:40.913701"
     }
   ],
   "decisions": [],
@@ -85,6 +89,9 @@
       "requirements.txt",
       ".env.example",
       "project.json"
+    ],
+    "writer_agent": [
+      "README.md"
     ]
   }
 }

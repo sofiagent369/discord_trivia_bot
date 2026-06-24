@@ -59,23 +59,28 @@
       "title": "Configurar base de datos SQLite",
       "description": "Crear archivo db.py con la configuración de la conexión a SQLite. Crear tabla para almacenar trivias y preguntas.",
       "assigned_to": "database_expert",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 2,
       "dependencies": [
         "task_001"
       ],
-      "output_files": [],
-      "output_summary": "",
+      "output_files": [
+        "db.py",
+        "alembic.ini",
+        "migrations/env.py",
+        "seeds.py"
+      ],
+      "output_summary": "### Explicación:\nPara configurar la base de datos SQLite, vamos a crear un archivo `db.py` que se encargará de manejar la conexión y las operaciones básicas con la base de datos. También crearemos una tabla para almacenar trivias y preguntas.\n\n### Creación del archivo `db.py`:\n- **Razón**: Este arch | Archivos: db.py, alembic.ini, migrations/env.py, seeds.py",
       "created_at": "2026-06-24T09:08:12.362990",
       "started_at": "2026-06-24T09:13:07.918562",
-      "completed_at": null
+      "completed_at": "2026-06-24T09:19:36.342540"
     },
     {
       "id": "task_005",
       "title": "Configurar bot principal",
       "description": "Crear archivo main.py con el bot básico usando discord.py. Incluir setup de intents, slash commands y event listeners.",
       "assigned_to": "backend_expert",
-      "status": "pending",
+      "status": "in_progress",
       "priority": 2,
       "dependencies": [
         "task_003",
@@ -84,7 +89,7 @@
       "output_files": [],
       "output_summary": "",
       "created_at": "2026-06-24T09:08:12.378649",
-      "started_at": null,
+      "started_at": "2026-06-24T09:19:38.780333",
       "completed_at": null
     },
     {
@@ -189,5 +194,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T09:13:07.918562"
+  "updated_at": "2026-06-24T09:19:38.780333"
 }

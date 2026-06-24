@@ -21,13 +21,25 @@ async def on_ready():
     print(f'Logged in as {bot.user.name} - {bot.user.id}')
     await bot.change_presence(activity=discord.Game(name="Playing Trivia"))
 
-# Slash command de ejemplo
-@bot.slash_command(description="Saca una trivia")
-async def trivia(ctx):
+# Slash command de ejemplo para administradores
+@bot.slash_command(description="Saca una trivia solo para administradores")
+@commands.has_permissions(administrator=True)
+async def admin_trivia(ctx):
     embed = discord.Embed(
-        title="Trivia Time!",
-        description="Let's play a trivia game!",
-        color=discord.Color.blue()
+        title="Admin Trivia Time!",
+        description="Let's play a special admin trivia game!",
+        color=discord.Color.red()
+    )
+    await ctx.respond(embed=embed)
+
+# Slash command de ejemplo para moderadores
+@bot.slash_command(description="Saca una trivia solo para moderadores")
+@commands.has_permissions(manage_guild=True)
+async def mod_trivia(ctx):
+    embed = discord.Embed(
+        title="Mod Trivia Time!",
+        description="Let's play a special mod trivia game!",
+        color=discord.Color.orange()
     )
     await ctx.respond(embed=embed)
 

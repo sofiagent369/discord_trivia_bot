@@ -21,3 +21,5 @@
 [2026-06-24 09:19:38] [IN_PROGRESS] task_005: Configurar bot principal
 [2026-06-24 09:22:02] [COMPLETED] task_005: Configurar bot principal
 [2026-06-24 09:22:05] [IN_PROGRESS] task_006: Implementar sistema de permisos
+[2026-06-24 09:27:25] [COMPLETED] task_006: Implementar sistema de permisos
+[2026-06-24 09:27:27] [IN_PROGRESS] task_007: Crear comando /crearTrivia

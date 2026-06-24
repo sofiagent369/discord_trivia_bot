@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
+from db import SessionLocal, Trivia, Question
 
 # Cargar variables de entorno desde .env
 load_dotenv()
@@ -41,6 +42,23 @@ async def mod_trivia(ctx):
         description="Let's play a special mod trivia game!",
         color=discord.Color.orange()
     )
+    await ctx.respond(embed=embed)
+
+# Slash command para crear trivias
+@bot.slash_command(description="Crea una nueva trivia")
+async def crearTrivia(ctx, nombre: str):
+    embed = discord.Embed(
+        title=f"Creado Trivia '{nombre}'",
+        description="Ahora puedes añadir preguntas a esta trivia.",
+        color=discord.Color.green()
+    )
+    
+    # Guardar la trivia en la base de datos
+    session = SessionLocal()
+    new_trivia = Trivia(title=nombre, description="Trivia creada por el usuario")
+    session.add(new_trivia)
+    session.commit()
+    
     await ctx.respond(embed=embed)
 
 # Ejecutar el bot con el token proporcionado

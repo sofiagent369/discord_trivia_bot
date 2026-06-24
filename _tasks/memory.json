@@ -23,6 +23,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Configurar bot principal. Archivos: main.py, .env.example",
       "timestamp": "2026-06-24T09:22:02.986694"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Implementar sistema de permisos. Archivos: main.py, .env.example, requirements.txt, README.md",
+      "timestamp": "2026-06-24T09:27:25.042821"
     }
   ],
   "decisions": [],
@@ -50,7 +54,11 @@
       "main.py",
       ".env.example",
       "requirements.txt",
-      "README.md"
+      "README.md",
+      "main.py",
+      "db.py",
+      "README.md",
+      "requirements.txt"
     ]
   }
 }

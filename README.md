@@ -1,9 +1,12 @@
+# discord_trivia_bot
+
 ## Funcionalidades Implementadas
 
 - **Slash Commands**: Comandos interactivos para iniciar trivias.
 - **Embed Responses**: Respuestas enriquecidas usando embeds de Discord.
 - **Persistencia en SQLite**: Almacenamiento de trivias y preguntas en una base de datos SQLite.
 - **Sistema de Permisos**: Restricción de comandos a usuarios con roles específicos (administradores y moderadores).
+- **Comando /crearTrivia**: Creación interactiva de nuevas trivias.
 
 ## Contribuciones
 

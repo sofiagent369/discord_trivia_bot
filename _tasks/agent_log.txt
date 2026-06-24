@@ -11,3 +11,5 @@
 [2026-06-24 09:08:12] [CREATED] task_010: Escribir tests unitarios → research_agent
 [2026-06-24 09:08:12] [CREATED] task_011: Crear README.md → writer_agent
 [2026-06-24 09:08:13] [IN_PROGRESS] task_001: Configurar entorno de desarrollo
+[2026-06-24 09:10:07] [COMPLETED] task_001: Configurar entorno de desarrollo
+[2026-06-24 09:10:10] [IN_PROGRESS] task_002: Configurar archivo requirements.txt

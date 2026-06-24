@@ -25,3 +25,5 @@
 [2026-06-24 09:27:27] [IN_PROGRESS] task_007: Crear comando /crearTrivia
 [2026-06-24 09:33:22] [COMPLETED] task_007: Crear comando /crearTrivia
 [2026-06-24 09:33:25] [IN_PROGRESS] task_008: Crear comando /jugarTrivia
+[2026-06-24 09:41:33] [COMPLETED] task_008: Crear comando /jugarTrivia
+[2026-06-24 09:41:35] [IN_PROGRESS] task_009: Implementar respuestas en formato embed

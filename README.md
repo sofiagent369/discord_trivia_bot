@@ -6,8 +6,8 @@
 - **Embed Responses**: Respuestas enriquecidas usando embeds de Discord.
 - **Persistencia en SQLite**: Almacenamiento de trivias y preguntas en una base de datos SQLite.
 - **Sistema de Permisos**: Restricción de comandos a usuarios con roles específicos (administradores y moderadores).
-- **Comando /crearTrivia**: Creación interactiva de nuevas trivias.
-- **Comando /jugarTrivia**: Jugar a una trivia seleccionada, responder preguntas y ver la puntuación final.
+- **Comando /crearTrivia**: Creación interactiva de nuevas trivias utilizando respuestas en formato de Discord Embed.
+- **Comando /jugarTrivia**: Jugar a una trivia seleccionada, responder preguntas y ver la puntuación final utilizando respuestas en formato de Discord Embed.
 
 ## Contribuciones
 

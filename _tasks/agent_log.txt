@@ -23,3 +23,5 @@
 [2026-06-24 09:22:05] [IN_PROGRESS] task_006: Implementar sistema de permisos
 [2026-06-24 09:27:25] [COMPLETED] task_006: Implementar sistema de permisos
 [2026-06-24 09:27:27] [IN_PROGRESS] task_007: Crear comando /crearTrivia
+[2026-06-24 09:33:22] [COMPLETED] task_007: Crear comando /crearTrivia
+[2026-06-24 09:33:25] [IN_PROGRESS] task_008: Crear comando /jugarTrivia

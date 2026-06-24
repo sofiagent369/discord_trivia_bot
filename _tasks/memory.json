@@ -27,6 +27,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Implementar sistema de permisos. Archivos: main.py, .env.example, requirements.txt, README.md",
       "timestamp": "2026-06-24T09:27:25.042821"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Crear comando /crearTrivia. Archivos: main.py, db.py, README.md, requirements.txt",
+      "timestamp": "2026-06-24T09:33:22.713853"
     }
   ],
   "decisions": [],
@@ -58,7 +62,11 @@
       "main.py",
       "db.py",
       "README.md",
-      "requirements.txt"
+      "requirements.txt",
+      "main.py",
+      "requirements.txt",
+      "README.md",
+      ".env.example"
     ]
   }
 }

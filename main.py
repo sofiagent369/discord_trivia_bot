@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
+import asyncio  # Added this import
 from db import SessionLocal, Trivia, Question
 
 # Cargar variables de entorno desde .env
